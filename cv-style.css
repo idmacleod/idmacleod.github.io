@@ -1,0 +1,74 @@
+/* A simple stylesheet for my CV */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ffffff, #cae8dc);
+  box-shadow: 0 5px 5px lightgrey;
+}
+
+#headshot {
+  height: 120px;
+}
+
+.content {
+  margin-top: 140px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-left: 20px;
+}
+
+.subh1 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.subh3 {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.box1 {
+  background: linear-gradient(to right, #ffffff, #9aafc4);
+  padding: 4px;
+  border: 8px white solid;
+}
+
+.box2 {
+  background: linear-gradient(to right, #ffffff, #99e4ed);
+  padding: 4px;
+  border: 8px white solid;
+}
+
+.columns {
+  display: flex;
+}
+
+.pane {
+  flex: 1;
+  padding: 8px;
+}
