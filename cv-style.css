@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   background: linear-gradient(to right, #ffffff, #cae8dc);
-  box-shadow: 0 5px 5px lightgrey;
+  box-shadow: 0 5px 5px #00000048;
 }
 
 #headshot {
