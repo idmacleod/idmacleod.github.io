@@ -43,7 +43,6 @@ button:hover {
 
 button:active {
   border: 1px white inset;
-  color: black;
 }
 
 .content {
