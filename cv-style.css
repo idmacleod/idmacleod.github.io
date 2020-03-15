@@ -37,10 +37,6 @@ button {
   outline: 0;
 }
 
-button:hover {
-  background: #00000008;
-}
-
 button:active {
   border: 1px white inset;
 }
