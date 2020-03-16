@@ -46,15 +46,12 @@ nav {
 
 .content {
   margin-top: 180px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
-}
-
-p, ul {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
 }
 
 h1 {
