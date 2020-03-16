@@ -108,3 +108,7 @@ h3 {
 #gallery > img {
   width: 100%;
 }
+
+img.pano {
+  grid-column: 1 / 4;
+}
