@@ -17,15 +17,15 @@ span {
   transition: font-size 1s, text-shadow 1s, color 1s;
 }
 
-span:hover {
+span:active {
   font-size: 420px;
   text-shadow: 20px 20px 0px pink;
 }
 
-span.e:hover {
+span.e:active {
   text-shadow: 20px 20px 0px #84cdee;
 }
 
-span.w:hover {
+span.w:active {
   text-shadow: 20px 20px 0px #84cdee;
 }
