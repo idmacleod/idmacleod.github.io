@@ -38,7 +38,6 @@ nav {
   width: 120px;
   border: 1px white outset;
   background: #00000000;
-  outline: 0;
 }
 
 .nav-link:active {
