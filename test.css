@@ -13,19 +13,21 @@ p {
   border: 0;
 }
 
-span {
+a, a:visited {
+  color: black;
+  text-decoration: none;
   transition: font-size 1s, text-shadow 1s, color 1s;
 }
 
-span:active {
+a:active {
   font-size: 420px;
   text-shadow: 20px 20px 0px pink;
 }
 
-span.e:active {
+a.e:active {
   text-shadow: 20px 20px 0px #84cdee;
 }
 
-span.w:active {
+a.w:active {
   text-shadow: 20px 20px 0px #84cdee;
 }
