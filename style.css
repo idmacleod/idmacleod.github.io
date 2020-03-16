@@ -98,3 +98,13 @@ h3 {
   flex: 1;
   padding: 8px;
 }
+
+#gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#gallery > img {
+  width: 100%;
+}
