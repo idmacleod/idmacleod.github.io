@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="test.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <title></title>
+    <script src="nwrite.js" charset="utf-8"></script>
+    <title>nwrite.js</title>
   </head>
   <body>
     <h1>Writing Large Integers in English</h1>
@@ -12,6 +13,6 @@
     <p>The largest "safe integer" JavaScript handles is 9007199254740991.  JavaScript calls this Number.MAX_SAFE_INTEGER.</p>
     <p>As a result, the script nwrite.js has been limited so it will only run on numbers less than or equal to 9007199254740991.</p>
     <p>Using the script, this number can be written as follows in English:</p>
-    <script src="nwrite.js" charset="utf-8"></script>
+    <script>document.write(`<p>${capitalize(nwrite(Number.MAX_SAFE_INTEGER))}.</p>`);</script>
   </body>
 </html>

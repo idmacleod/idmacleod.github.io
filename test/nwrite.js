@@ -53,5 +53,3 @@ function nwriteBig(n) {
 function capitalize(s) {
   return `${s[0].toUpperCase()}${s.slice(1)}`;
 }
-
-document.write(`<p>${capitalize(nwrite(Number.MAX_SAFE_INTEGER))}.</p>`); // 9007199254740991
