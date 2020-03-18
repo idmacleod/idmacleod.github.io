@@ -1,3 +1,20 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+  font-family: Courier, monospace;
+  text-shadow: 1px 1px 1px #00000048;
+}
+
+.code {
+  font-family: Courier, monospace;
+  background: lightgrey;
+}
+
+.result {
+  font-style: italic;
+  background: linear-gradient(to right, #ffffff, #cae8dc);
+  padding: 4px;
+  border: 8px white solid;
+}

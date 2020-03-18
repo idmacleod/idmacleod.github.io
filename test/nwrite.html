@@ -8,11 +8,13 @@
     <title>nwrite.js</title>
   </head>
   <body>
-    <h1>Writing Large Integers in English</h1>
+    <h1>write.js // Writing Large Integers in English</h1>
     <p>JavaScript doesn't handle large integers very well.</p>
-    <p>The largest "safe integer" JavaScript handles is 9007199254740991.  JavaScript calls this Number.MAX_SAFE_INTEGER.</p>
-    <p>As a result, the script nwrite.js has been limited so it will only run on numbers less than or equal to 9007199254740991.</p>
+    <p>The largest "safe integer" JavaScript handles is <span class="code">9007199254740991</span>.  JavaScript calls this <span class="code">Number.MAX_SAFE_INTEGER</span>.</p>
+    <p>As a result, the script nwrite.js has been limited so it will only run on numbers less than or equal to <span class="code">9007199254740991</span>.</p>
     <p>Using the script, this number can be written as follows in English:</p>
-    <script>document.write(`<p>${capitalize(nwrite(Number.MAX_SAFE_INTEGER))}.</p>`);</script>
+    <div class="result">
+      <script>document.write(`<p>${capitalize(nwrite(Number.MAX_SAFE_INTEGER))}.</p>`);</script>
+    </div>
   </body>
 </html>
