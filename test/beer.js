@@ -1,8 +1,8 @@
 // A function to sing the famous folksong, using the nwrite method in nwrite.js
 function singBeer(n) {
-  var originalBeer = n;
-  var words = ['no bottles of beer', 'one bottle of beer'];
-  for (var i = 2; i <= n; i++) {
+  let originalBeer = n;
+  let words = ['no bottles of beer', 'one bottle of beer'];
+  for (let i = 2; i <= n; i++) {
     words[i] = nwrite(i) + ' bottles of beer';
   }
   while (n > 0) {

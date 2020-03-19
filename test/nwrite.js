@@ -12,14 +12,14 @@ function nwrite(n) {
   if (n < 20) {
     return smalls[n];
   } else if (n < 100) {
-    var count_10s = Math.floor(n / 10);
+    let count_10s = Math.floor(n / 10);
     if (n % 10 == 0) {
       return tens[count_10s];
     } else {
       return tens[count_10s] + "-" + nwrite(n - 10 * count_10s);
     }
   } else if (n < 1000) {
-    var count_100s = Math.floor(n / 100);
+    let count_100s = Math.floor(n / 100);
     if (n % 100 == 0) {
       return `${nwrite(count_100s)} hundred`;
     } else {
@@ -37,9 +37,9 @@ function nwriteBig(n) {
     return 'Number bigger than JavaScript\'s Number.MAX_SAFE_INTEGER'
   } else {
     // Work out the exponent of 10
-    var exp = Math.floor((String(n).length - 1) / 3) * 3;
-    var mult = 10**exp; // Find the multiplier for this exponent
-    var count = Math.floor(n / mult); // And how many multiples there are in our integer
+    let exp = Math.floor((String(n).length - 1) / 3) * 3;
+    let mult = 10**exp; // Find the multiplier for this exponent
+    let count = Math.floor(n / mult); // And how many multiples there are in our integer
     // Then use our illions array...
     if (n % mult == 0) {
       return `${nwrite(count)} ${illions[exp / 3]}`;
